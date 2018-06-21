@@ -7,7 +7,7 @@ public class PrinterTests
 	public void printTest()
 	{
 		Printer printer = new Printer();
-		String expectedText = "hello, I'm printer";
+		String expectedText = "hello, I'm printer 12345";
 		String actualText = printer.print();
 		Assert.assertEquals(actualText, expectedText);
 	}
